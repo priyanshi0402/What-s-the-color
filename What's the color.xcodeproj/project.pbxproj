@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BA960F62A63083A00A0E924 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA960F52A63083A00A0E924 /* LevelViewController.swift */; };
 		5BE595122A60475F00453C13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE595112A60475F00453C13 /* AppDelegate.swift */; };
 		5BE595142A60475F00453C13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE595132A60475F00453C13 /* SceneDelegate.swift */; };
 		5BE595162A60475F00453C13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE595152A60475F00453C13 /* ViewController.swift */; };
 		5BE595192A60475F00453C13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE595172A60475F00453C13 /* Main.storyboard */; };
 		5BE5951B2A60476100453C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE5951A2A60476100453C13 /* Assets.xcassets */; };
 		5BE5951E2A60476100453C13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE5951C2A60476100453C13 /* LaunchScreen.storyboard */; };
+		5BE5952A2A60484F00453C13 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE595262A60484F00453C13 /* CustomView.swift */; };
+		5BE5952B2A60484F00453C13 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE595272A60484F00453C13 /* CustomButton.swift */; };
+		5BE5952C2A60484F00453C13 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE595282A60484F00453C13 /* CustomTextField.swift */; };
+		5BE5952D2A60484F00453C13 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE595292A60484F00453C13 /* CustomLabel.swift */; };
+		5BE595302A60496900453C13 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE5952F2A60496900453C13 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5BA960F52A63083A00A0E924 /* LevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
 		5BE5950E2A60475F00453C13 /* What's the color.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What's the color.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE595112A60475F00453C13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BE595132A60475F00453C13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		5BE5951A2A60476100453C13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BE5951D2A60476100453C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BE5951F2A60476100453C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE595262A60484F00453C13 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		5BE595272A60484F00453C13 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		5BE595282A60484F00453C13 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		5BE595292A60484F00453C13 /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		5BE5952F2A60496900453C13 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,37 @@
 		5BE595102A60475F00453C13 /* What's the color */ = {
 			isa = PBXGroup;
 			children = (
+				5BE5952E2A60495600453C13 /* Cells */,
+				5BE595252A60484F00453C13 /* Custom Control */,
 				5BE595112A60475F00453C13 /* AppDelegate.swift */,
 				5BE595132A60475F00453C13 /* SceneDelegate.swift */,
 				5BE595152A60475F00453C13 /* ViewController.swift */,
+				5BA960F52A63083A00A0E924 /* LevelViewController.swift */,
 				5BE595172A60475F00453C13 /* Main.storyboard */,
 				5BE5951A2A60476100453C13 /* Assets.xcassets */,
 				5BE5951C2A60476100453C13 /* LaunchScreen.storyboard */,
 				5BE5951F2A60476100453C13 /* Info.plist */,
 			);
 			path = "What's the color";
+			sourceTree = "<group>";
+		};
+		5BE595252A60484F00453C13 /* Custom Control */ = {
+			isa = PBXGroup;
+			children = (
+				5BE595262A60484F00453C13 /* CustomView.swift */,
+				5BE595272A60484F00453C13 /* CustomButton.swift */,
+				5BE595282A60484F00453C13 /* CustomTextField.swift */,
+				5BE595292A60484F00453C13 /* CustomLabel.swift */,
+			);
+			path = "Custom Control";
+			sourceTree = "<group>";
+		};
+		5BE5952E2A60495600453C13 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5BE5952F2A60496900453C13 /* CollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +173,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BE595162A60475F00453C13 /* ViewController.swift in Sources */,
+				5BE5952A2A60484F00453C13 /* CustomView.swift in Sources */,
+				5BE595302A60496900453C13 /* CollectionViewCell.swift in Sources */,
+				5BA960F62A63083A00A0E924 /* LevelViewController.swift in Sources */,
+				5BE5952C2A60484F00453C13 /* CustomTextField.swift in Sources */,
+				5BE5952D2A60484F00453C13 /* CustomLabel.swift in Sources */,
 				5BE595122A60475F00453C13 /* AppDelegate.swift in Sources */,
 				5BE595142A60475F00453C13 /* SceneDelegate.swift in Sources */,
+				5BE5952B2A60484F00453C13 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,17 +330,19 @@
 				DEVELOPMENT_TEAM = 2T8ZX7X76S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "What's the color/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "What's the hex";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.whatsthecolor.ios.What-s-the-color";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whatsthecolor.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -318,17 +360,19 @@
 				DEVELOPMENT_TEAM = 2T8ZX7X76S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "What's the color/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "What's the hex";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.whatsthecolor.ios.What-s-the-color";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whatsthecolor.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
